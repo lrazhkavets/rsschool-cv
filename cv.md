@@ -21,7 +21,13 @@ September 1999 - August 2005, BGATU, Faculty of Entrepreneurship and Management,
 March - September 2019 - Courses "Front End Developer" at "Teachmeskills".
 
 #### Professional skills:
-Knowledge of CSS, HTML, Bootstrap, JavaScript, React, Redux, Git, Webpack.
+* Javascript
+* HTML 
+* CSS
+* GIT
+* React
+* Redux
+* Webpack
 
 #### Languages:
 Russian - fluent;
