@@ -1,0 +1,190 @@
+*
+{
+    box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.733);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2em;
+  color: rgba(0, 0, 0, 0.747);
+  background-color: rgb(246, 247, 238);
+}
+.wrapper {
+  overflow: hidden;
+
+}
+.header {
+  background-color: #C6D166;
+  
+  
+}
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    
+}
+.header-container {
+  max-width: 1220px;
+  margin: 0 auto;
+  
+}
+.menu {
+  margin-top: 16px;
+}
+.menu__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 18px;
+  
+}
+.menu__item {
+  list-style: none;
+}
+.menu__link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  font-size: 18px;
+  line-height: 50px;
+  
+}
+.menu__item + .menu__item{
+  margin-left: 18px;
+}
+.menu__link:hover{
+  border-bottom: 2px solid rgba(0, 0, 0, 0.733);
+}
+
+.main {
+  padding: 20px;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.section {
+  width: calc(50% - 20px);
+  padding: 30px;
+  border-bottom: 2px solid #5C821A;
+  
+}
+.section-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 5px solid #C6D166;
+  
+}
+.logo {
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 25% 10%;
+}
+.main-title {
+  font-weight: 800;
+  font-size: 2em;
+  line-height: 3em;
+  text-transform: uppercase;
+}
+
+.info {
+
+}
+.info-title {
+  font-weight: 800;
+  font-size: 1.5em;
+  line-height: 3em;
+  text-transform: uppercase;
+  
+}
+
+.section-title {
+  text-transform: uppercase;
+}
+
+.section-list {
+  
+}
+.section-item {
+}
+
+.phone {
+}
+.pre {
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #5C821A;
+  padding: 20px;
+  font-size: 1.2em;  
+  font-weight: 700;
+}
+li {
+  list-style: none;
+  text-align: left;
+}
+#skills, 
+#code {
+  border-bottom: 0 solid #5C821A;
+}
+
+/*
+body{
+  background-color: #f5f5ea;
+  color: rgb(14, 7, 44);
+}
+.header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+section {
+  min-height: 5em;
+  text-align: center; 
+  margin: 0 auto;
+}
+ul {
+  display: inline-block;
+}
+li {
+  list-style: square;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  padding-top: 10px;
+  align-self: center;
+  background-color: #c5c467;
+}
+.year {
+  font-size: 2em;
+}
+
+*/
+
+
+
+
